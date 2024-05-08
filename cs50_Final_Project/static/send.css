@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.input-field {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    height: 25px;
+    border: 1px solid #8A8A8A;
+    border-radius: 5px;
+    color: #704225;
+    font-size: 18px;
+    width: 100%;
+}
+
+label {
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 23px;
+}
+
+p {
+    color: rgb(255, 73, 73);
+    font-size: 15px;
+}
+
+.button-send {
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 8px 10px;
+    background-color: #704225;
+    border: 2px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button-send:hover {
+    background-color: #4A4A4A;
+}
+
+.button-send:active {
+    opacity: 0.6;
+}

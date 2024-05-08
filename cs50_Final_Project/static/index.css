@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+.title-info {
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    color: #704225;
+    margin-left: 10%;
+    font-size: 32px;
+}
+
+.item:first-child {
+    border-top: none;
+    border-inline: none;
+}
+
+.item:last-child {
+    border-bottom: none;
+    border-inline: none;
+}
+
+.list {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.189);
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.item {
+    height: 40px; /* Reduced height */
+    padding-inline: 15px; /* Reduced padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item:first-child:hover {
+    background-color: rgba(248, 252, 37, 0.537);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.item:last-child:hover {
+    background-color: rgba(248, 252, 37, 0.537);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.item:hover {
+    background-color: rgba(248, 252, 37, 0.537);
+}
+
+.sender, .title, .date {
+    text-wrap: nowrap;
+    font-family: 'Merriweather', serif;
+    color: #704225;
+}
+
+.sendEmail {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    color: white;
+    font-size: 20px; /* Reduced font size */
+    border-radius: 6px; /* Adjusted border radius */
+    padding-block: 8px; /* Adjusted padding */
+    padding-inline: 10px; /* Adjusted padding */
+    background-color: #704225;
+    border: 2px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sendEmail:hover {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.862);
+}
+
+.sendEmail:active {
+    opacity: 0.6;
+}
+
+.noemails {
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 16px; /* Reduced font size */
+    color: rgb(150, 150, 150);
+}

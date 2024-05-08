@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Ensuring full width for central alignment */
+}
+
+.input1, .input2 {
+    display: block;
+    margin: 10px auto; /* Centering inputs horizontally */
+    padding-inline: 15px; /* Slightly larger padding */
+    height: 40px; /* Shorter height */
+    border: solid 1px #8A8A8A; /* Consistent border style */
+    border-radius: 5px; /* Consistent border radius */
+    color: #4A4A4A; /* Consistent text color */
+    font-size: 15px; /* Smaller font size */
+    width: 100%; /* Narrower width for settings input */
+    text-align: left; /* Text within inputs aligned to the left */
+}
+
+form {
+    width: 100%; /* Full width to center contents */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+label {
+    font-weight: 400; /* Standard weight */
+    font-family: 'Merriweather', serif; /* Consistent font family */
+    color: black; /* Consistent color */
+    font-size: 26px; /* Slightly larger font size */
+    width: 80%; /* Adjusted width for labels */
+    margin: 0 auto; /* Centering label */
+}
+
+p {
+    font-size: 14px; /* Slightly larger font size */
+    color: rgb(255, 73, 73); /* Consistent color */
+    width: 80%; /* Adjusted width for paragraphs */
+    margin: 10px auto; /* Centering paragraph */
+}
+
+button {
+    color: #FFF; /* White text color */
+    font-size: 19px; /* Slightly smaller font size */
+    border-radius: 6px; /* Slightly larger border radius */
+    padding-block: 9px; /* Slightly different padding */
+    padding-inline: 9px;
+    background-color: #704225; /* Consistent button color */
+    border: 2px solid black; /* Consistent border color */
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px auto; /* Centering button */
+    width: 20%; /* Consistent button width */
+}
+
+button:hover {
+    background-color: #4A4A4A; /* Dark grey on hover */
+}
+
+button:active {
+    opacity: 0.7; /* Slightly different active state */
+}
+
+.old-password {
+    margin-bottom: 15px; /* Slightly different bottom margin */
+    width: 10%; /* Consistent width for password inputs */
+    margin: 1 auto; /* Centering password inputs */
+}

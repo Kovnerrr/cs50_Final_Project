@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='reply.css') }}"> <!-- Correct linking with Flask -->
+    <title>Reply</title>
+</head>
+<body>
+    <div class="center-container">
+        <h1>Reply to Message</h1>
+        <p><strong>Original Message:</strong> {{ original_message['message'] }}</p>
+
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+
+        <form action="/reply/{{ email_id }}" method="post">
+            <label for="message">Your Reply:</label><br>
+            <textarea class="input-reply" id="message" name="message" rows="4" cols="50"></textarea><br>
+            <input class="button-reply" type="submit" value="Send Reply">
+        </form>
+    </div>
+</body>
+</html>

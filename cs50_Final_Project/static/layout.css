@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding-top: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 4px;
+    padding-inline: 35px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.189);
+    height: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #704225;
+}
+.logo {
+    width: 36px;
+    text-align: center;
+}
+
+.icon-name {
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 27px;
+}
+.name {
+    color: white;
+}
+.cumpriment {
+    font-size: 27px;
+    color: grey;
+    margin-right: 150px;
+}
+.hidden-box {
+    position: absolute;
+    background-color: white;
+    bottom: -42px;
+    right: 45px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.189);
+    padding: 7px 30px 7px 7px;
+    visibility: hidden;
+}
+.menu-icon img {
+    width: 38px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hidden-box a{
+    color: #704225;
+    display: block;
+    text-decoration: none;
+}
+.hidden-box a:first-child {
+    margin-bottom: 5px;
+}

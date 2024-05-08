@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Ensure full width */
+}
+
+.input-reply {
+    display: block;
+    margin-top: 5px;
+    padding-inline: 15px; /* Adjusted padding */
+    height: 30px; /* Adjusted height */
+    border: solid 1px #8A8A8A;
+    border-radius: 5px; /* Adjusted border radius */
+    color: #704225;
+    font-size: 19px; /* Adjusted font size */
+    width: 90%; /* Adjusted width */
+}
+
+label {
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 26px; /* Adjusted font size */
+}
+
+p {
+    color: #704225;
+    font-size: 18px; /* Adjusted font size */
+}
+
+.button-reply {
+    color: #FFF;
+    font-size: 19px; /* Adjusted button text size */
+    border-radius: 6px; /* Adjusted border radius */
+    padding-block: 8px;
+    padding-inline: 9px;
+    background-color: #704225;
+    border: 2px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px; /* Adjusted margin top */
+}
+
+.button-reply:hover {
+    background-color: #4A4A4A;
+}
+
+.button-reply:active {
+    opacity: 0.6;
+}
