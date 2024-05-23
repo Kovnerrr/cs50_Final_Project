@@ -6,7 +6,7 @@ Description:
 
 Overview:
 
-Mates-Mail is a web-based email application designed to allow users to send, receive, and reply to emails seamlessly. Built with Flask, a Python web framework, and utilizing SQLite for database management, Mates-Mail offers a lightweight solution for email communication within a closed system. This project is ideal for educational purposes and showcases fundamental web development skills including backend setup, database management, and frontend rendering.
+Mates-Mail is a web-based email application designed to allow users to send, receive, and reply to emails seamlessly. Built with Flask, a Python web framework, and utilizing SQLite for database management, Mates-Mail offers a lightweight solution for email communication within a closed system. This project is ideal for educational purposes and showcases web development skills including backend setup, database management, and frontend rendering.
 
 Features:
 
